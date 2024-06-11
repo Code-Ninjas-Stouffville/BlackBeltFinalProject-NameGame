@@ -1,2 +1,1 @@
-# BlackBeltFinalProject-NameGame
-Name-Game
+# BlackBeltFinalProject
