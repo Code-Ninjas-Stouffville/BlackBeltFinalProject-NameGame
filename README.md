@@ -1,10 +1,9 @@
 # BlackBeltFinalProject - NameGame
 
 Discription:
-room in which you would be in an arcade where you can play a varity of probably licensed games(Dont sue me)you are playing as a character that is a ninja named coeyd DONT GET IT MIXED UP AS "Codey" There are a varity of games from maybe clasic to modern games. you will be given tokens for games, games can cost as many tokens as i want because i want people to spend there lives savings in my arcade heh, once you complete a game you will be rewarded with magical tickets where you can buy overpriced dollarstore prizes, did i say prizes i meant no prizes because we have no customers. 
+room in which you would be in an arcade where you can play a varity of probably licensed games(Dont sue me)you are playing as a character that is a ninja named coeyd DONT GET IT MIXED UP AS "Codey" There are a varity of games from maybe clasic to modern games, once you complete a game you will be rewarded with magical tickets where you can buy overpriced dollarstore prizes, did i say prizes i meant no prizes because we have no customers. 
 
 Core concepts: 
-Claw machine(Maybe not)
 Fps Bird that flys 3d :OOOOO
 Codey clicker click codey
 simple maze
