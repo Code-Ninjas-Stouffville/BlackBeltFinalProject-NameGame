@@ -19,3 +19,5 @@ Click Codey to get points, time limit every 10 cicks = 1 ticket or less time but
 simple maze: simple short maze with a character finding the exit, time limit,
 
 Spin wheel: spin the wheel for "easy" tickets as most of the prizes are just one ticket
+
+8411 6372 742734 9435 17 4172 743 9411
