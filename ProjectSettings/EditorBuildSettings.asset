@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Ok.unity
+    guid: eab8d197d866b174886509008ed2b84c
+  - enabled: 1
+    path: Assets/Scenes/Player1Win.unity
+    guid: 9ea5ef18eaa46784fb409fa3b40b719b
+  - enabled: 1
+    path: Assets/Scenes/Player2Win.unity
+    guid: fc6932ed53f52914687d9166245c86a7
+  - enabled: 1
+    path: Assets/Scenes/BirdsThatFly.unity
+    guid: f3fc5281726c9cb43a249360718655a5
+  - enabled: 1
+    path: Assets/Scenes/SpaceBar.unity
+    guid: 75f34e54493e5fd468e4550596746173
+  - enabled: 1
+    path: Assets/Scenes/PONG.unity
+    guid: efbfbca41ebb9484e9f3bc66030a632a
+  - enabled: 1
+    path: Assets/Scenes/Credits.unity
+    guid: 4225892ac3e64724daa2a0287fd92ec4
+  - enabled: 1
+    path: Assets/Scenes/Select1.unity
+    guid: b2343cbd92718764cab7f4f9f5c0a1ce
+  - enabled: 1
+    path: Assets/Scenes/Select2.unity
+    guid: a3508cd81bee7204aaf2f6fd225ae691
+  - enabled: 1
+    path: Assets/Scenes/Select3.unity
+    guid: 0e74e37e09e22b142a0e4cad5a3af4f7
+  m_configObjects: {}
