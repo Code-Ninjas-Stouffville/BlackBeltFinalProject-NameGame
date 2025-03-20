@@ -411,7 +411,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 235b74e6a76d14e4a81c569cf9bb4b86, type: 2}
+  - {fileID: 2100000, guid: a9722bfdb1f153c49baeb0ae5af71012, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -840,9 +840,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9aee5927a51eb034980b614118fcef70, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  rb: {fileID: 0}
   ball: {fileID: 1999682452}
   speed: 0.1
   verticalLimit: 0.1
+  startPosition: {x: 0, y: 0, z: 0}
+  delayTimer: 0
+  minReflexTime: 0
+  maxReflexTime: 0
 --- !u!1 &1999682448
 GameObject:
   m_ObjectHideFlags: 0

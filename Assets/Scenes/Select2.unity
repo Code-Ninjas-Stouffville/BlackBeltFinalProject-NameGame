@@ -263,7 +263,7 @@ GameObject:
   - component: {fileID: 113434351}
   - component: {fileID: 113434350}
   - component: {fileID: 113434349}
-  - component: {fileID: 113434348}
+  - component: {fileID: 113434352}
   m_Layer: 5
   m_Name: Button
   m_TagString: Untagged
@@ -286,23 +286,11 @@ RectTransform:
   - {fileID: 979870137}
   m_Father: {fileID: 548007275}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -132.06, y: 135}
-  m_SizeDelta: {x: 87.8845, y: 27.3291}
+  m_AnchorMin: {x: 1, y: 1}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: -187, y: -44}
+  m_SizeDelta: {x: 87.88452, y: 27.329102}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &113434348
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 113434346}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8d254a08e60375c4695620c176619f1b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &113434349
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -347,9 +335,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 113434348}
-        m_TargetAssemblyTypeName: Return, Assembly-CSharp
-        m_MethodName: LoadScene
+      - m_Target: {fileID: 113434352}
+        m_TargetAssemblyTypeName: Select, Assembly-CSharp
+        m_MethodName: LoadSceneZero
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -397,6 +385,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 113434346}
   m_CullTransparentMesh: 1
+--- !u!114 &113434352
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 113434346}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 85650c2bad062c84d8cdce5f06f71544, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &184808548
 GameObject:
   m_ObjectHideFlags: 0
@@ -631,10 +631,10 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 548007275}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.000015259, y: 0.000015259}
-  m_SizeDelta: {x: 463, y: 420.5}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &336719532
 MonoBehaviour:
@@ -1022,7 +1022,7 @@ GameObject:
   - component: {fileID: 684147380}
   - component: {fileID: 684147379}
   - component: {fileID: 684147378}
-  - component: {fileID: 684147377}
+  - component: {fileID: 684147381}
   m_Layer: 5
   m_Name: Button
   m_TagString: Untagged
@@ -1045,23 +1045,11 @@ RectTransform:
   - {fileID: 1299404148}
   m_Father: {fileID: 548007275}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 172, y: -162}
-  m_SizeDelta: {x: 124.8278, y: 133.7582}
+  m_AnchorMin: {x: 0.5, y: 0}
+  m_AnchorMax: {x: 0.5, y: 0}
+  m_AnchoredPosition: {x: 172, y: 48}
+  m_SizeDelta: {x: 124.82782, y: 133.7582}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &684147377
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 684147375}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8a3944927b2fe6d4bbbf7fa8d981b81f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &684147378
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1106,9 +1094,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 684147377}
-        m_TargetAssemblyTypeName: SpaceSelect, Assembly-CSharp
-        m_MethodName: LoadScene
+      - m_Target: {fileID: 684147381}
+        m_TargetAssemblyTypeName: PongSelect, Assembly-CSharp
+        m_MethodName: LoadSceneNine
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1156,6 +1144,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 684147375}
   m_CullTransparentMesh: 1
+--- !u!114 &684147381
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 684147375}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 85650c2bad062c84d8cdce5f06f71544, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &717775283
 GameObject:
   m_ObjectHideFlags: 0
@@ -1262,7 +1262,7 @@ GameObject:
   - component: {fileID: 862779131}
   - component: {fileID: 862779130}
   - component: {fileID: 862779129}
-  - component: {fileID: 862779128}
+  - component: {fileID: 862779132}
   m_Layer: 5
   m_Name: Button (1)
   m_TagString: Untagged
@@ -1285,23 +1285,11 @@ RectTransform:
   - {fileID: 335512276}
   m_Father: {fileID: 548007275}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 180}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -150, y: -162}
-  m_SizeDelta: {x: 124.8278, y: 133.7582}
+  m_AnchorMin: {x: 0.5, y: 0}
+  m_AnchorMax: {x: 0.5, y: 0}
+  m_AnchoredPosition: {x: -150, y: 48}
+  m_SizeDelta: {x: 124.82776, y: 133.7582}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &862779128
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 862779126}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 85650c2bad062c84d8cdce5f06f71544, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &862779129
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1346,9 +1334,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 862779128}
-        m_TargetAssemblyTypeName: PongSelect, Assembly-CSharp
-        m_MethodName: LoadScene
+      - m_Target: {fileID: 862779132}
+        m_TargetAssemblyTypeName: Select, Assembly-CSharp
+        m_MethodName: LoadSceneSeven
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1396,6 +1384,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 862779126}
   m_CullTransparentMesh: 1
+--- !u!114 &862779132
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 862779126}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 85650c2bad062c84d8cdce5f06f71544, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &979870136
 GameObject:
   m_ObjectHideFlags: 0
@@ -1696,9 +1696,9 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 548007275}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -119, y: 163}
+  m_AnchorMin: {x: 0.5, y: 1}
+  m_AnchorMax: {x: 0.5, y: 1}
+  m_AnchoredPosition: {x: -119, y: -47}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1198714808
@@ -1944,7 +1944,7 @@ GameObject:
   - component: {fileID: 1321915191}
   - component: {fileID: 1321915190}
   - component: {fileID: 1321915189}
-  - component: {fileID: 1321915188}
+  - component: {fileID: 1321915192}
   m_Layer: 5
   m_Name: Pong
   m_TagString: Untagged
@@ -1967,23 +1967,11 @@ RectTransform:
   - {fileID: 1093113613}
   m_Father: {fileID: 548007275}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 9, y: -163}
+  m_AnchorMin: {x: 0.5, y: 0}
+  m_AnchorMax: {x: 0.5, y: 0}
+  m_AnchoredPosition: {x: 9, y: 47}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1321915188
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1321915186}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f6692afbcf8fd964cad827b6669a0ecf, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &1321915189
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2028,9 +2016,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1321915188}
-        m_TargetAssemblyTypeName: BirdsPlay, Assembly-CSharp
-        m_MethodName: LoadScene
+      - m_Target: {fileID: 1321915192}
+        m_TargetAssemblyTypeName: PongSelect, Assembly-CSharp
+        m_MethodName: LoadSceneThree
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -2078,6 +2066,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1321915186}
   m_CullTransparentMesh: 1
+--- !u!114 &1321915192
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1321915186}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 85650c2bad062c84d8cdce5f06f71544, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1552259538
 GameObject:
   m_ObjectHideFlags: 0
@@ -2113,7 +2113,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: -135, y: -0.8220215}
-  m_SizeDelta: {x: 246.1832, y: 256.32}
+  m_SizeDelta: {x: 246.18323, y: 256.32}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1552259540
 MonoBehaviour:

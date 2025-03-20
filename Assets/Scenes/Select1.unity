@@ -155,10 +155,10 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 1007552287}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.000015259, y: 0.000015259}
-  m_SizeDelta: {x: 463, y: 420.5}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &105468488
 MonoBehaviour:
@@ -606,7 +606,7 @@ GameObject:
   - component: {fileID: 651696631}
   - component: {fileID: 651696630}
   - component: {fileID: 651696629}
-  - component: {fileID: 651696628}
+  - component: {fileID: 651696632}
   m_Layer: 5
   m_Name: Pong
   m_TagString: Untagged
@@ -629,23 +629,11 @@ RectTransform:
   - {fileID: 1182642644}
   m_Father: {fileID: 1007552287}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -83, y: -163}
+  m_AnchorMin: {x: 0.5, y: 0}
+  m_AnchorMax: {x: 0.5, y: 0}
+  m_AnchoredPosition: {x: 0, y: 50.98}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &651696628
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 651696626}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 055d26ac3a5e455488eb4cd7a452e033, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &651696629
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -690,9 +678,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 651696628}
-        m_TargetAssemblyTypeName: PongPlay, Assembly-CSharp
-        m_MethodName: LoadScene
+      - m_Target: {fileID: 651696632}
+        m_TargetAssemblyTypeName: Select, Assembly-CSharp
+        m_MethodName: LoadSceneFive
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -740,6 +728,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 651696626}
   m_CullTransparentMesh: 1
+--- !u!114 &651696632
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 651696626}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 85650c2bad062c84d8cdce5f06f71544, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &741053567
 GameObject:
   m_ObjectHideFlags: 0
@@ -1427,7 +1427,7 @@ GameObject:
   - component: {fileID: 1411414274}
   - component: {fileID: 1411414273}
   - component: {fileID: 1411414272}
-  - component: {fileID: 1411414271}
+  - component: {fileID: 1411414275}
   m_Layer: 5
   m_Name: Button
   m_TagString: Untagged
@@ -1450,23 +1450,11 @@ RectTransform:
   - {fileID: 870818913}
   m_Father: {fileID: 1007552287}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 140.4, y: -132.7}
-  m_SizeDelta: {x: 124.8278, y: 133.7582}
+  m_AnchorMin: {x: 1, y: 0.5}
+  m_AnchorMax: {x: 1, y: 0.5}
+  m_AnchoredPosition: {x: -62.41391, y: -159.5}
+  m_SizeDelta: {x: 124.82782, y: 133.7582}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1411414271
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1411414269}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9c8f396627955824f8d098fd4fe7742a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &1411414272
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1511,9 +1499,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1411414271}
-        m_TargetAssemblyTypeName: BirdSelect, Assembly-CSharp
-        m_MethodName: LoadScene
+      - m_Target: {fileID: 1411414275}
+        m_TargetAssemblyTypeName: PongSelect, Assembly-CSharp
+        m_MethodName: LoadSceneEight
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1561,6 +1549,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1411414269}
   m_CullTransparentMesh: 1
+--- !u!114 &1411414275
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1411414269}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 85650c2bad062c84d8cdce5f06f71544, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1435525576
 GameObject:
   m_ObjectHideFlags: 0
@@ -1593,9 +1593,9 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 1007552287}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -72, y: 165}
+  m_AnchorMin: {x: 0.5, y: 1}
+  m_AnchorMax: {x: 0.5, y: 1}
+  m_AnchoredPosition: {x: 0, y: -51.4}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1435525578
@@ -1897,10 +1897,10 @@ RectTransform:
   - {fileID: 330287008}
   m_Father: {fileID: 1007552287}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 129, y: 160}
-  m_SizeDelta: {x: 87.8845, y: 27.3291}
+  m_AnchorMin: {x: 0.5, y: 1}
+  m_AnchorMax: {x: 0.5, y: 1}
+  m_AnchoredPosition: {x: 80.1, y: -51.96}
+  m_SizeDelta: {x: 87.8845, y: 27.329102}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1913061898
 MonoBehaviour:
@@ -1947,8 +1947,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1913061901}
-        m_TargetAssemblyTypeName: Return, Assembly-CSharp
-        m_MethodName: LoadScene
+        m_TargetAssemblyTypeName: PongSelect, Assembly-CSharp
+        m_MethodName: LoadSceneZero
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -2005,7 +2005,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1913061896}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8d254a08e60375c4695620c176619f1b, type: 3}
+  m_Script: {fileID: 11500000, guid: 85650c2bad062c84d8cdce5f06f71544, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1660057539 &9223372036854775807

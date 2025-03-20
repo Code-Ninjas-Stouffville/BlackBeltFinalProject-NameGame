@@ -960,7 +960,7 @@ GameObject:
   - component: {fileID: 2121707293}
   - component: {fileID: 2121707292}
   - component: {fileID: 2121707291}
-  - component: {fileID: 2121707290}
+  - component: {fileID: 2121707294}
   m_Layer: 5
   m_Name: Button
   m_TagString: Untagged
@@ -983,23 +983,11 @@ RectTransform:
   - {fileID: 2011529965}
   m_Father: {fileID: 1595511094}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 4, y: 105.42474}
-  m_SizeDelta: {x: 435.1314, y: 86.4796}
+  m_AnchorMin: {x: 0.5, y: 1}
+  m_AnchorMax: {x: 0.5, y: 1}
+  m_AnchoredPosition: {x: 4, y: -103.57526}
+  m_SizeDelta: {x: 435.1314, y: 86.479614}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &2121707290
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2121707288}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8d254a08e60375c4695620c176619f1b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &2121707291
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1044,9 +1032,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 2121707290}
-        m_TargetAssemblyTypeName: Return, Assembly-CSharp
-        m_MethodName: LoadScene
+      - m_Target: {fileID: 2121707294}
+        m_TargetAssemblyTypeName: Select, Assembly-CSharp
+        m_MethodName: LoadSceneZero
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1094,6 +1082,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2121707288}
   m_CullTransparentMesh: 1
+--- !u!114 &2121707294
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2121707288}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 85650c2bad062c84d8cdce5f06f71544, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0

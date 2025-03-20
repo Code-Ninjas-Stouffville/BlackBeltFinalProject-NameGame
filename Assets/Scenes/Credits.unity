@@ -285,8 +285,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.844, y: -30.499}
-  m_SizeDelta: {x: 421.2748, y: 241}
+  m_AnchoredPosition: {x: 42, y: -11}
+  m_SizeDelta: {x: 2356.21, y: 706.4188}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &440854296
 MonoBehaviour:
@@ -338,7 +338,7 @@ GameObject:
   - component: {fileID: 454358818}
   - component: {fileID: 454358817}
   - component: {fileID: 454358816}
-  - component: {fileID: 454358815}
+  - component: {fileID: 454358819}
   m_Layer: 5
   m_Name: Button
   m_TagString: Untagged
@@ -361,23 +361,11 @@ RectTransform:
   - {fileID: 1268841554}
   m_Father: {fileID: 1984384120}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 81, y: -183}
-  m_SizeDelta: {x: 160, y: 30}
+  m_AnchorMin: {x: 0.5, y: 0}
+  m_AnchorMax: {x: 0.5, y: 0}
+  m_AnchoredPosition: {x: -231.78711, y: 166}
+  m_SizeDelta: {x: 785.5742, y: 284.5554}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &454358815
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 454358813}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8d254a08e60375c4695620c176619f1b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &454358816
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -422,9 +410,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 454358815}
-        m_TargetAssemblyTypeName: Return, Assembly-CSharp
-        m_MethodName: LoadScene
+      - m_Target: {fileID: 454358819}
+        m_TargetAssemblyTypeName: PongSelect, Assembly-CSharp
+        m_MethodName: LoadSceneZero
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -447,7 +435,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 1, g: 0.82452834, b: 0.82452834, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -472,6 +460,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 454358813}
   m_CullTransparentMesh: 1
+--- !u!114 &454358819
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 454358813}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 85650c2bad062c84d8cdce5f06f71544, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &509906824
 GameObject:
   m_ObjectHideFlags: 0
@@ -648,8 +648,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 24
-  m_fontSizeBase: 24
+  m_fontSize: 96
+  m_fontSizeBase: 96
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -730,10 +730,10 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 1984384120}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.000015259, y: 0}
-  m_SizeDelta: {x: 463, y: 420.5}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1308335951
 MonoBehaviour:
@@ -875,8 +875,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 22.9, y: 137}
-  m_SizeDelta: {x: 200, y: 50}
+  m_AnchoredPosition: {x: 3, y: 460}
+  m_SizeDelta: {x: 329.283, y: 158.25}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1447613053
 MonoBehaviour:
@@ -925,8 +925,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 40
-  m_fontSizeBase: 40
+  m_fontSize: 96
+  m_fontSizeBase: 96
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -1009,8 +1009,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -55, y: -7}
-  m_SizeDelta: {x: 278.3351, y: 167.5026}
+  m_AnchoredPosition: {x: 57, y: 17}
+  m_SizeDelta: {x: 2170.1755, y: 624.3026}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1454257501
 MonoBehaviour:
@@ -1037,12 +1037,13 @@ MonoBehaviour:
     Helps from Chat GPT, Jin Chan, Zeeshan Badr.
 
     Assets:
-    Unity assets, pixelart.com.
+    Hand made assits using pixelart.com.
 
-    Sounds: Pixabay.com
+    Sounds: Pixabay.com (Artists) Good_B_Music,
+    RibhavAgrawal, Universfield
 
-    Supporters: James P.,
-    Bernice L., Megan I., Patrick S., Clyden H.,'
+    Supporters: James P., Bernice L., Megan I.,
+    Patrick S., Clyden H.,'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 405bb9828664ce342b002215667164e3, type: 2}
   m_sharedMaterial: {fileID: -761959059246060537, guid: 405bb9828664ce342b002215667164e3, type: 2}
@@ -1069,8 +1070,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 28
-  m_fontSizeBase: 28
+  m_fontSize: 96
+  m_fontSizeBase: 96
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -1153,8 +1154,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -12.9639, y: 139}
-  m_SizeDelta: {x: 193.8722, y: 72.6917}
+  m_AnchoredPosition: {x: 3.1451, y: 483}
+  m_SizeDelta: {x: 367.5721, y: 124.35}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1784179634
 MonoBehaviour:
@@ -1242,12 +1243,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_UiScaleMode: 0
+  m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
-  m_ReferenceResolution: {x: 800, y: 600}
+  m_ReferenceResolution: {x: 2540, y: 1440}
   m_ScreenMatchMode: 0
-  m_MatchWidthOrHeight: 0
+  m_MatchWidthOrHeight: 0.5
   m_PhysicalUnit: 3
   m_FallbackScreenDPI: 96
   m_DefaultSpriteDPI: 96
